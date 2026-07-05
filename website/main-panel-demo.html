@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NebulaOS Main Panel Demo</title>
+  <style>
+    body { margin:0; font-family:Segoe UI,Arial,sans-serif; background:#060816; color:#e8f1ff; display:grid; place-items:center; min-height:100vh; }
+    .panel { width:920px; height:520px; background:linear-gradient(135deg,#0f1630,#111b3f); border:1px solid rgba(255,255,255,0.14); border-radius:24px; box-shadow:0 20px 60px rgba(0,0,0,0.35); overflow:hidden; }
+    .topbar { height:54px; background:rgba(255,255,255,0.04); display:flex; align-items:center; justify-content:space-between; padding:0 16px; border-bottom:1px solid rgba(255,255,255,0.08); }
+    .left, .right { display:flex; gap:10px; align-items:center; }
+    .pill { padding:8px 12px; border-radius:999px; background:rgba(24,209,255,0.14); color:#8fe9ff; font-size:13px; }
+    .content { display:grid; grid-template-columns: 220px 1fr 220px; height:466px; }
+    .sidebar, .rightcol { background:rgba(255,255,255,0.03); padding:14px; }
+    .app { padding:8px 10px; margin-bottom:8px; border-radius:10px; background:rgba(91,108,255,0.12); color:#dfe8ff; }
+    .main { padding:18px; }
+    .card { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:14px; margin-bottom:12px; }
+    .terminal { font-family:Consolas,monospace; background:#03060f; padding:12px; border-radius:10px; color:#7af6ff; min-height:140px; }
+    .status { color:#a855f7; }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <div class="topbar">
+      <div class="left">
+        <div class="pill">NebulaOS</div>
+        <div class="pill">Workspace: /dev/nebula</div>
+      </div>
+      <div class="right">
+        <div class="pill">CPU 42%</div>
+        <div class="pill">RAM 68%</div>
+        <div class="pill">Audio OK</div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <div class="app">Terminal</div>
+        <div class="app">VS Code</div>
+        <div class="app">Steam</div>
+        <div class="app">OBS</div>
+        <div class="app">Blender</div>
+      </div>
+      <div class="main">
+        <div class="card">
+          <strong>Code Console</strong>
+          <div class="terminal">$ npm run build<br>$ cargo run --release<br><span class="status">[INFO] NebulaOS ready for dev and play</span></div>
+        </div>
+        <div class="card">
+          <strong>Quick Actions</strong>
+          <p>Build • Run • Git • Stream • Record</p>
+        </div>
+      </div>
+      <div class="rightcol">
+        <div class="card"><strong>Projects</strong><br/>NebulaOS UI<br/>Game Engine<br/>Audio Lab</div>
+        <div class="card"><strong>System</strong><br/>Network: Online<br/>Battery: 86%<br/>Mode: Creator</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

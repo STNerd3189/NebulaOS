@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#060816"/>
+  <circle cx="960" cy="540" r="320" fill="none" stroke="#5b6cff" stroke-width="8" stroke-opacity="0.35"/>
+  <circle cx="960" cy="540" r="270" fill="none" stroke="#18d1ff" stroke-width="6" stroke-opacity="0.42"/>
+  <circle cx="960" cy="540" r="220" fill="none" stroke="#a855f7" stroke-width="4" stroke-opacity="0.35"/>
+  <text x="960" y="520" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="700" fill="#e8f1ff">NebulaOS</text>
+  <text x="960" y="590" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#8fa0c4">Powering play, creation, and sound.</text>
+</svg>

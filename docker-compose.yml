@@ -1,0 +1,8 @@
+services:
+  nebulaos-dev:
+    build: .
+    container_name: nebulaos-dev
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: bash -lc "pwd && ls -la"

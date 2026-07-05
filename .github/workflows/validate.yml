@@ -1,0 +1,21 @@
+name: Validate NebulaOS Project
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify expected project files
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f Makefile
+          test -d docs
+          test -d scripts
+          test -d archiso
+          test -d themes
+          test -d website

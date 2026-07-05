@@ -1,0 +1,11 @@
+wallpaper = Image("/usr/share/backgrounds/nebula-default.jpg");
+logo = Image("/usr/share/plymouth/themes/nebulaos/nebula-logo.png");
+
+fun refresh_callback() {
+  if (status == "normal") {
+    sprite = Sprite(wallpaper);
+    sprite.SetPosition(0, 0, -100);
+  }
+}
+
+Plymouth.SetRefreshFunction(refresh_callback);

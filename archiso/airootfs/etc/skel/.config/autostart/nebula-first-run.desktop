@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=NebulaOS First Run
+Exec=/usr/local/bin/nebula-first-run.sh
+Terminal=false
+X-KDE-autostart-phase=2
