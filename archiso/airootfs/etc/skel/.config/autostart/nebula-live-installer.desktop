@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=NebulaOS Live Installer
+Exec=/usr/local/bin/nebula-live-installer.sh
+Terminal=false
+X-KDE-autostart-phase=2

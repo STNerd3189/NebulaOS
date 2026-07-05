@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install NebulaOS
+Comment=Open the NebulaOS live installer workflow
+Exec=/usr/local/bin/nebula-live-installer.sh
+Terminal=false
+Icon=system-software-install
+Categories=System;Utility;

@@ -31,7 +31,7 @@ Powering play, creation, and sound.
 ## Repository Structure
 - docs/ - documentation and build planning
 - scripts/ - installer and build helpers
-- archiso/ - live ISO customization scaffold
+- archiso/ - live ISO customization scaffold with live installer assets
 - themes/ - UI theme concepts
 - website/ - landing page prototype
 - .github/ - CI and issue templates

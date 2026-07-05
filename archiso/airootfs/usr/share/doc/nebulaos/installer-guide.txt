@@ -1,0 +1,17 @@
+NebulaOS Live Installer Guide
+============================
+
+This live ISO image includes a starter installer workflow for NebulaOS.
+
+What is included
+- A live-session installer launcher from the desktop and autostart menu.
+- A helper script at /usr/local/bin/nebula-live-installer.sh.
+- The NebulaOS package install scaffold at /usr/local/bin/install-nebulaos.sh.
+
+Suggested workflow
+1. Boot the NebulaOS live environment.
+2. Open the Install NebulaOS launcher from the desktop.
+3. Review the installer notes and prepare the target disk.
+4. Run the install helper once the target device is ready.
+
+This scaffold is intended to be expanded into a full disk-install experience in future releases.
