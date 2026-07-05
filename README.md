@@ -1,4 +1,4 @@
-# NebulaOS Project
+# NebulaOS
 
 NebulaOS is a proposed Arch-based Linux distribution designed for gamers, streamers, content creators, and music producers.
 
