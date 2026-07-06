@@ -1,0 +1,6 @@
+[Unit]
+Description=Nebula runner update job
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/nebula-runner-update.sh

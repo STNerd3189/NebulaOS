@@ -1,0 +1,6 @@
+[Unit]
+Description=Nebula cleanup job
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/nebula-cleanup-builds.sh
